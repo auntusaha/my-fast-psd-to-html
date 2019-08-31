@@ -1,0 +1,282 @@
+*{margin: 0;padding: 0;font-family:Arial;color: #454545;}
+header{
+  width: 100%;
+  position: fixed;
+  background: white;
+  z-index: 1;
+}
+div#hed {
+    height: 65px;
+}
+#logo h1{
+width: 144px;
+}
+#logo{
+      display: flex;
+      width: 216px;
+      margin-left: 15%;
+}
+div#contuct {
+    width: 258px; 
+    float: right;
+    margin-top: -38px;
+    margin-right: 15%;
+    text-align: end;
+}
+#logo p{
+    margin-top: 28px;
+}
+#logo h1{
+  color: #00d7ff;
+  margin-top: 14px;
+}
+#menu{
+  background: #454545;
+  color: white;
+  height: 39px;
+  line-height: 39px;
+}
+#menu menu ul li{
+  display: inline-block;
+  text-transform: uppercase;
+}
+#menu menu{
+  margin-left: 14.3%;
+}
+#menu menu ul li:hover a{
+  transition: 600ms;
+  background: linear-gradient(#00d7ff,#00d7ff9e,#ffffff00);
+  color: black;
+  display: block;
+}
+#menu menu ul li a{
+  text-decoration: none;
+  color: white;
+    padding: 0px 9px;
+}
+/*slid start*/
+#contaner{
+  margin: auto;
+  width: 1000px;
+  overflow: hidden;
+}
+#slid{
+}
+#sliBox{
+  margin-top: 104px;
+  position: relative;
+  width: 5000px;
+  animation-name: sliderSow;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+@keyframes sliderSow{
+    0%
+    {
+    left: 0px;
+    }
+    15%
+    {
+    left: 0px
+    }
+    20%{
+      left: -1000px
+    }
+    35%{
+      left: -1000px
+    }
+    40%{
+      left: -2000px
+    }
+    55%{
+      left: -2000px
+    }
+    60%{
+      left: -3000px
+    }
+    75%{
+      left: -3000px
+    }
+    80%{
+      left: -4000px
+    }
+    95%{
+      left: -4000px
+    }
+    100%{
+      left: -5000px
+    }
+    115%{
+      left: -5000px
+    }
+
+}
+#sliBox img{
+  float: left;
+
+}
+/*slid stop*/
+
+#conter{
+  width: 70%;
+  height: 1100px;
+  /* border: 3px dotted red; */
+  margin: auto;
+}
+div#srvises {
+    height: 358px;
+}
+#srvises ul li{
+  list-style: none;
+  width: 21%;
+  display: inline-block;
+  padding: 20px;
+  margin:  0px -3px;
+  margin-top: 30px;
+  height: 279px;
+}
+#srvises ul li:hover{
+    margin-top: 0px;
+      height: 309px;
+    transform: translatey(-30px);
+    transition:600ms;
+    /*padding:25px; */
+}
+/* #menu menu ul li img{
+  width: 50px;
+  height: 50px;
+} */
+#srvises ul #a{background: rgb(87 169 207);}
+#srvises ul #b{background: rgb(84 176 215);}
+#srvises ul #c{background: rgb(90 184 220);}
+#srvises ul #d{background: rgb(100 192 231);}
+#alll{
+  margin-left: 56px;
+  margin-top: 30px;
+}
+.raper {
+    width: 40%;
+    display: -webkit-inline-box;
+    margin: 22px;
+}
+.pic .con{
+  display: inline-block;
+}
+.pic{
+width: 66px;
+height: 66px;
+background: #64c0e7;
+}
+.con{width: 317px;margin-left: 12px;}
+.pic img{
+
+margin-top: 12px;
+
+margin-left: 12px;
+}
+.raper :hover h4{
+  color: #00d7ff;
+}
+#pic1{
+  margin-top: 21px;
+}
+#line{
+  margin-top: 15px;
+  border: 1px solid rgb(100 192 231);
+}
+.div3{
+  /* border: 1px solid black; */
+  width: 30%;
+  display: inline-block;
+  padding: 10px;
+}
+#help img{
+  width: 50px;
+}
+#hpRep{
+
+display: -webkit-box;
+}
+#hpRep h2{
+  margin-top: 9px;
+}
+#help{
+  background: rgb(87 169 207);
+  padding: 30px;
+  position: absolute;
+  margin-top: -458px;
+  width: 19%;
+}
+#aboPic{
+  width: 101%;
+}
+#forBor{
+  border: 1px solid #454545;
+}
+#help p{
+  margin-top: 10px;
+  line-height: 25px;
+}
+#sli{
+  border: 1px solid #FF5722;
+  height: 100px;
+  line-height: 100px;
+  position: absolute;
+  margin-top: -112px;
+  width: 23%;
+  text-align: -webkit-center;
+}
+#baton{
+  
+background: #00d7ff;
+  
+width: 80px;
+  
+height: 30px;
+  
+text-align: center;
+  
+line-height: 30px;
+  
+margin-top: 9px;
+}
+footer{
+  margin-top: 81px;
+  width: 100%;
+  height: 300px;
+  background: #454545;
+}
+#blockRep{
+  width: 70%;
+  margin: auto;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 16%;
+}
+.imgs {
+    background: #607d8ba3;
+   /* padding: 3px;*/
+    border-radius: 8px;
+}
+.imgs img{
+  width: 35px;
+  padding: 5px;
+  margin-top: 1px;
+}
+.block{
+  display: inline-flex;
+  width: 27%;
+  margin: 18px;
+}
+.txt p{
+  color: white;
+  margin-top: 10px;
+  margin-left: 33px;
+}
+#foB{
+  border: 1px solid #ffffffd6;
+}
+#fooTxt{
+  color: white;
+  margin-top: 27px;
+}
